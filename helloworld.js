@@ -2,7 +2,7 @@
 const http = require('http');
 const app = http.createServer((req,res) => {
   // --- WRITING CONTENT HEAD --- //
-  res.writeHead({'Content -Type ':'text/plain'});
+  res.writeHead({'Content-Type ':'text/plain'});
   // --- HELLO WORLD ---//
   res.end(`<h1>hello world</h1>`)
 });
